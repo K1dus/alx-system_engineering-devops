@@ -1,5 +1,5 @@
 #!/bin/bash
-adduser.conf
+echo "adduser.conf
 alternatives
 apache2
 apparmor.d
@@ -138,4 +138,4 @@ vulkan
 wgetrc
 X11
 xattr.conf
-xdg
+xdg"
