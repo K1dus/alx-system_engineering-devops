@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times.
+# Displays "Best School" 10 times using a while loop.
 
-COUNTER=0
-while [ $COUNTER -lt 10 ]
+count=0
+
+while [ $count -lt 10 ]
 do
-    echo "Holberton School"
-    let COUNTER=COUNTER+1
+  echo "Holberton School"
+  (( count++ ))
 done
-© 2022 GitHub, Inc.
-Terms
-
